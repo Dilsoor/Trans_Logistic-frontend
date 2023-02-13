@@ -1,0 +1,492 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.intro {
+    background-image: url(../images/bg\ \(1\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* height: 100vh; */
+}
+
+header {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.466);
+    position: fixed;
+    z-index: 4;
+}
+
+.logo {
+    display: inline-block;
+    margin: 30px 40px;
+}
+
+.headerspan {
+    color: white;
+    /* border: 2px solid red; */
+    font-size: 20px;
+}
+
+.navbar {
+    position: absolute;
+    right: 0;
+    display: inline-block;
+    /* background-color: rgba(0, 0, 0, 0.466)*/
+}
+
+li {
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: white;
+    margin: 10px 25px;
+}
+
+.main-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: right;
+    padding: 340px 50px 200px;
+}
+
+.main-text .country {
+    color: white;
+    height: 30px;
+    font-size: 15px;
+    line-height: 21px;
+}
+
+.translogistic {
+    font-weight: 700;
+    font-size: 110px;
+    line-height: 100px;
+    color: rgba(255, 255, 255, 0.8);
+    width: 40%;
+    margin-left: auto;
+}
+
+.and {
+    position: absolute;
+    top: 380px;
+    right: 50px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 200px;
+    color: rgba(255, 255, 255, 0.2);
+}
+
+.form-body {
+    width: 400px;
+    height: 430px;
+    position: absolute;
+    top: 53.45%;
+    left: 4%;
+    /* bottom: 0%/; */
+    background: #004AF2;
+    border-radius: 5px;
+}
+.form-body form{
+    padding: 20px;
+}
+
+/* .form-body form input{
+    
+} */
+
+.form-header {
+    background: #033FC9;
+    border-radius: 5px 5px 0px 0px;
+    padding: 20px;
+}
+
+.getcallback {
+    width: 100%;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+.getcallback-lorem {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+
+#fname {
+    width: 250px;
+    position: absolute;
+    left: 25.25%;
+    right: 62.5%;
+    top: 35.9%;
+    bottom: 50.04%;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    background-color: #004AF2;
+    border: none;
+    outline: none;
+}
+
+.yourname {
+    position: absolute;
+    left: 15.75%;
+    right: 84.5%;
+    top: 40.39%;
+    bottom: 60%;
+}
+
+.line1 {
+    position: absolute;
+    left: 7.5%;
+    right: 7.5%;
+    top: 46.6%;
+    bottom: 53.15%;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.call {
+    position: absolute;
+    left: 15%;
+    right: 81.25%;
+    top: 55.33%;
+    bottom: 41.06%;
+}
+
+#ccall {
+    width: 250px;
+    position: absolute;
+    left: 25.25%;
+    right: 53.25%;
+    top: 54.84%;
+    bottom: 40.1%;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    background-color: #004AF2;
+    border: none;
+    outline: none;
+}
+
+#your_name  {
+    position: absolute;
+    left: 25.25%;
+    right: 53.25%;
+    top: 37.44%;
+    bottom: 40.1%;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    background-color: #004AF2;
+    border: none;
+    outline: none;
+    height: 40px;
+}
+
+.line2 {
+    position: absolute;
+    left: 7.5%;
+    right: 7.5%;
+    top: 61.54%;
+    bottom: 38.21%;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.mail {
+    position: absolute;
+    left: 15.5%;
+    right: 80.7%;
+    top: 70.23%;
+    bottom: 27.24%;
+}
+
+#e-mail {
+    width: 250px;
+    position: absolute;
+    left: 25.25%;
+    right: 55%;
+    top: 68.78%;
+    bottom: 25.16%;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    background-color: #004AF2;
+    border: none;
+    outline: none;
+}
+
+.line3 {
+    position: absolute;
+    left: 7.5%;
+    right: 7.5%;
+    top: 76.48%;
+    bottom: 23.27%;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.rectangle1 {
+    position: absolute;
+    left: 7.5%;
+    right: 7.5%;
+    top: 81.93%;
+    bottom: 7.23%;
+    background: linear-gradient(90deg, #FF903E 0%, #FF2C2C 100%);
+    border-radius: 5px;
+    border: none;
+}
+
+.callme {
+    width: 200px;
+    position: absolute;
+    left: 23.25%;
+    right: 52.25%;
+    /* top: 75.58%; */
+    bottom: 18.88%;
+    font-style: normal;
+    font-weight: 550;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;
+    height: 23px;
+    top: 11px;
+    /* left: 153px; */
+}
+
+.cont {
+    margin-top: 100px;
+}
+
+.cont h1 {
+    position: absolute;
+    width: 334px;
+    height: 90px;
+    left: 1077px;
+    top: 1087px;
+    font-style: normal;
+    font-weight: 645;
+    font-size: 90px;
+    line-height: 90px;
+    color: rgba(44, 44, 44, 0.05);
+}
+
+.row .title h1 {
+    font-size: 100;
+}
+
+.clients {
+    margin-top: 50px;
+    margin-left: 15px;
+}
+
+.map {
+    background: url(/images/map.png);
+    /* opacity: 0.1;
+    z-index: -2; */
+}
+
+.ourclients {
+    margin-left: 60px;
+    margin-top: 200px;
+}
+
+.ourclients span {
+    color: #004AF2;
+}
+
+.clients a {
+    padding: 40px;
+}
+
+.clients img {
+    padding-bottom: 60px;
+
+}
+
+.john h4 {
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-bottom: 0px;
+}
+
+.john p {
+    margin-left: 20px;
+}
+
+.became {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.rectangle2 {
+    margin-left: 55px;
+    margin-top: 70px;
+    width: 212px;
+    height: 45px;
+    background: linear-gradient(90deg, #FF903E 0%, #FF2C2C 100%);
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    border: none;
+}
+
+.welove {
+    margin-left: 45px;
+}
+
+.heart {
+    margin-left: -120px;
+}
+
+.car {
+    margin-left: 40px;
+    margin-top: 80px;
+}
+
+.safety h1 {
+    font-size: 24px;
+}
+
+.kamaz {
+    background-image: url(/images/kendall-henderson-Pj6TgpS_Vt4-unsplash\ 1.png);
+    background-repeat: no-repeat;
+}
+
+.team {
+    margin-top: 80px;
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+
+.team span {
+    color: #004AF2;
+}
+
+.client {
+    /* margin-left: 120px; */
+    width: 92.5%;
+    margin: 0 auto;
+}
+
+.client .col-4 .wrapper{
+    padding: 0 40px;
+}
+
+.clientimg {
+    width: 100%;
+    height: 250px;
+}
+
+.clients-back {
+    background-color: rgba(0, 0, 0, 0.041);
+    height: 600px;
+}
+
+.mission {
+    position: absolute;
+    width: 802px;
+    height: 108px;
+    left: 402px;
+    top: 3145px;
+    font-style: normal;
+    font-weight: 630;
+    font-size: 110px;
+    line-height: 108px;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0);
+}
+
+.rectangle3 {
+    position: absolute;
+    width: 1170px;
+    height: 195px;
+    left: 88px;
+    top: 3325px;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.16);
+    border-radius: 5px;
+}
+
+.rectangle3 h3 {
+    padding-top: 50px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #004AF2;
+}
+
+.rectangle3 p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #585858;
+}
+.become {
+    bottom: 18.88%; 
+    font-style: normal;
+    font-weight: 550;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;
+    height: 23px;
+    top: 11px;
+}
+.rectangle4 {
+    margin-left: 505px;
+    margin-top: 400px;
+    width: 252px;
+    height: 45px;
+    background: linear-gradient(90deg, #FF903E 0%, #FF2C2C 100%);
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    border: none;
+}
+.read {
+    padding: 0px 55px;
+}
+.bottom {
+    width: 100%;
+    height: 300px;
+    margin-top: 70px;
+    padding-top: 40px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.034);
+}
+.bottom span {
+    margin-left: 10px;
+}
+.bottom p {
+    font-size: 14px;
+    margin-top: 40px;
+}
+.bottom .callus {
+    margin-top: 0px;
+}
+.bottom a {
+    text-decoration: none;
+}
